@@ -1,0 +1,29 @@
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.card {
+	border: solid 1px black;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#inner {
+	background-color: #D33;
+	opacity: 0;
+	transition: opacity 0.4s;
+    height: 300px;
+    position: fixed;
+    top: -260px;
+    left: 0;
+    right: 0;
+}
+
+.content {
+	padding-top: 10px;
+}
